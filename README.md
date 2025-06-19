@@ -1,2 +1,131 @@
-# Website-Deliq
-Delicious Eating, Low Calorie, Intentional, Quality
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DELIQ – Friend Healthy Diet</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fffef8;
+      color: #333;
+    }
+    header {
+      background-color: #A3B18A;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    section.hero {
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+    section.hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    section.hero p {
+      font-size: 1.2rem;
+    }
+    .cta-btn {
+      margin-top: 2rem;
+      padding: 1rem 2rem;
+      background-color: #FFD972;
+      color: #333;
+      border: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .section-highlight {
+      padding: 2rem 1rem;
+      background-color: #f3f7f4;
+      text-align: center;
+    }
+    .menu-card {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .menu-item {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      width: 250px;
+      padding: 1rem;
+    }
+    .menu-item h3 {
+      margin-top: 0;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>DELIQ – Friend Healthy Diet</h1>
+    <p>Delicious Eating, Low Calorie, Intentional, Quality</p>
+  </header>
+
+  <section class="hero">
+    <h1>Makan Sehat Nggak Harus Hambar</h1>
+    <p>Menu sehat, enak, dan praktis mulai dari Rp25.000 untuk kamu yang sibuk tapi tetap peduli gizi!</p>
+    <button class="cta-btn">Pesan Sekarang</button>
+  </section>
+
+  <section class="section-highlight">
+    <h2>Kenapa Harus Pilih DELIQ?</h2>
+    <p>✅ Rasa enak tanpa MSG dan minyak berlebih<br>
+    ✅ Kalori terukur dan porsi dikurasi ahli gizi<br>
+    ✅ Harga terjangkau, mulai dari Rp25.000<br>
+    ✅ Siap antar & praktis untuk gaya hidup aktif</p>
+  </section>
+
+  <section class="section-highlight">
+    <h2>Menu Favorit</h2>
+    <div class="menu-card">
+      <div class="menu-item">
+        <h3>FitBowl</h3>
+        <p>Nasi merah, ayam panggang, jamur & sawi hijau<br>Rp 25.000</p>
+      </div>
+      <div class="menu-item">
+        <h3>SlimBox</h3>
+        <p>Shirataki, dada ayam, sayur tumis, sambal<br>Rp 28.000</p>
+      </div>
+      <div class="menu-item">
+        <h3>ProteinBox</h3>
+        <p>Nasi merah, udang, scrambled egg, brokoli<br>Rp 30.000</p>
+      </div>
+      <div class="menu-item">
+        <h3>BalanceBox</h3>
+        <p>Nasi chia, sayur tumis, ayam dada, telur rebus<br>Rp 32.000</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-highlight">
+    <h2>Gaya Hidup Aktif Butuh Dukungan</h2>
+    <p>Cukup pesan via WhatsApp, marketplace, atau link bio Instagram.<br>
+    Deliq antar langsung ke tempat kamu — kampus, kantor, atau rumah.</p>
+  </section>
+
+  <section class="section-highlight">
+    <h2>Testimoni Pelanggan</h2>
+    <p><strong>“Setiap malam lapar tapi malas masak. Untung ada Deliq, bisa makan enak tanpa rasa bersalah.”</strong><br>– Elisabeth, Mahasiswa Yogyakarta</p>
+    <p><strong>“Aku kerja di startup, tiap hari pulang malam. Deliq bantu aku tetap jaga pola makan sehat tanpa ribet.”</strong><br>– Aldo, Staff Klaten</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 DELIQ Indonesia. Order sekarang via Instagram @deliqsehat_ atau www.deliqfood.fbe_atmarket.shop</p>
+  </footer>
+</body>
+</html>
